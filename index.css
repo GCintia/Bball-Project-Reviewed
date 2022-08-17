@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    color: whitesmoke;
+    background-color: #111827;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+}
+/*CONTAINER STYLING*/
+.container, .score-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;   
+}
+.container{
+    font-size: 30px; 
+}
+.score-container {
+    font-size: 50px;
+    margin: 0 auto;
+}
+/*SCORE DISPLAY STYLING*/
+#home-score, #guest-score{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    padding: 40px;
+    background: black;
+    margin: 0 auto;
+    border: solid 10px black;
+    color: #BE123C;
+}
+/*BUTTONS STYLING*/
+.btn-group-home{
+    float: left;
+    margin-top: 20px; 
+}
+.btn-group-guest{
+    float: rigth;
+    margin-top: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.plus-one, .plus-two, .plus-three{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 18px;
+    margin-left: 2px;
+    background-color: #4B5563;
+    color: whitesmoke;
+    border: solid 2px whitesmoke;
+    border-radius: 2px;
+    text-align: center;
+}
+/*RESET BUTTON*/
+#reset-btn{
+    background:#4B5563;
+    color: whitesmoke;
+     border: solid 2px whitesmoke;
+     padding: 15px 30px;      
+}
+.reset-section{
+    text-align: center;
+    margin-top:20px;
+}
